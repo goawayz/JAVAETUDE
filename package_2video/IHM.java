@@ -7,7 +7,7 @@ public class IHM {  /* création de la classe ihm */
     /* association d'une seul sens donc comme d'habitude 
     on a créer un objet menuprincipale */
     ArrayList<Article>listArticle=new ArrayList<Article>(); 
-    
+    //j'ai modifier
     /* déclaration array list de type article car il ya une composition */ 
    
     public void start() {} /* méthode de type voide nommée start */ 
