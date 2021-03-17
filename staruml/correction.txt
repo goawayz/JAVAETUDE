@@ -1,0 +1,12 @@
+-the sequence diagram in the scheme (Estimate 1):
+1 Customer fill in card into ATM
+2 DAB detects the card
+3 DAB ask for code
+4 The customer insert the code
+5 The treatment is carried out if the code is correct
+6 Otherwise the system must repeat a maximum of 3 times
+7 DAB asks for the card
+-The error:
+
+The system must repeat a maximum of 3 times : false {DAB must insert the code three times without processing}
+the customer requesting the card is not the ATM
